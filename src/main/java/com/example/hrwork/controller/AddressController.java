@@ -25,6 +25,7 @@ public class AddressController {
     public Address postAddress( @RequestBody Address address)
     {
         System.out.println(" Something has been Changes");
+        System.out.println("This is also added");
         return addressService.createAddress(address);
     }
 
